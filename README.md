@@ -1,8 +1,15 @@
 # Text Typing Animation
 
+### Use Skills
+
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+
 ---
 
-![csstext](readme/underconstruction.gif)
+[Demo Link <br>![CodePen](https://img.shields.io/badge/Codepen-000000?style=for-the-badge&logo=codepen&logoColor=white)](https://codepen.io/AlexGolovanov/pen/vYaEOPM)
+
+![gif](readme/gif.webp)
 
 ## Info
 
@@ -20,4 +27,3 @@
 - <a href="mailto:golovanov.a.a@yandex.ru" >Golovanov.a.a@yandex.ru</a>
 
 <sub> Made with </sub>💙
-
