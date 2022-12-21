@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
 * {
   padding: 0;
   margin: 0;
@@ -15,30 +15,41 @@ body {
 .container {
   display: flex;
 }
-.static-txt {
+.container .static-txt {
   font-size: 60px;
   font-weight: 400;
   color: #fff;
 }
-.dynamic-txt {
+.container .dynamic-txt {
   margin-left: 15px;
+  line-height: 90px;
+  height: 90px;
+  overflow: hidden;
 }
-.dynamic-txt li {
+.container .dynamic-txt li {
   position: relative;
   list-style: none;
   font-size: 60px;
-  font-weight: 600;
+  font-weight: 500;
   color: #ff4c29;
+  top: 0;
+  animation: textup 12s steps(4) infinite;
+}
+@keyframes textup {
+  100% {
+    top: -360px;
+  }
 }
 
-.dynamic-txt li::after {
+.container .dynamic-txt li::after {
   content: '';
   position: absolute;
   left: 0;
   width: 100%;
   height: 100%;
+  background-color: #082032;
   border-left: 2px solid #ff4c29;
-  animation: typing 3s steps(10) infinite;
+  animation: typing 4s steps(10) infinite;
 }
 @keyframes typing {
   40%,
