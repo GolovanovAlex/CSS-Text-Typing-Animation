@@ -49,7 +49,7 @@ body {
   height: 100%;
   background-color: #082032;
   border-left: 2px solid #ff4c29;
-  animation: typing 4s steps(10) infinite;
+  animation: typing 3s steps(10) infinite;
 }
 @keyframes typing {
   40%,
